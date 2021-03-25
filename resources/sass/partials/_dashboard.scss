@@ -1,0 +1,120 @@
+.background-container {
+    background-color: $adminBgColor;
+}
+
+.container-fluid nav {
+    background: linear-gradient(96deg, rgba(208,235,153,1) 63%, rgba(0,204,188,1) 100%);
+}
+
+.button-ham {
+    background-color: white;
+    display: none;
+}
+
+.ham {
+    position: fixed;
+    z-index: 100;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border: 1px solid $colorPrimary;
+    border-radius: 3px;
+    cursor: pointer;
+    background: $colorPrimary;
+
+        i {
+            color: #fff;
+            font-size: 20px;
+        }
+}
+
+.dropdown {
+    z-index: 99;
+
+    li {
+        padding: 20px;
+    }
+}
+
+.drop-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: $colorPrimary;
+    color: white;
+    transform: translateY(-100%);
+    transition: transform 0.4s;
+    list-style: none;
+    padding: 0;
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+.menuLink {
+    display: inline;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menuLink:hover {
+    text-decoration: none;
+    color: $colorSecondary;
+}
+
+.sidebar-nav {
+    height: 100%;
+}
+
+.dashboard-logo {
+    height: 60px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.sidebar-nav .link {
+    height: calc(100% - 60px);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a.nav-link {
+        color: $colorTitleHaeder;
+        font-family: $font-family-sans-serif;
+        font-size: $fontSizeDashboard;
+        padding-top: 16px;
+    }
+
+    a.logout {
+        color: $colorSecondary;
+        background-color: $colorTitleHaeder;
+        border-radius: 5px;
+        padding: 8px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+li.only-icon {
+    display: none;
+    padding-top: 16px;
+    text-align: center;
+
+    a.only-icon {
+        color: $colorTitleHaeder;
+        font-size: 25px;
+    }
+}

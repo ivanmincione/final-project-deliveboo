@@ -1,0 +1,223 @@
+#container-man-bike-delivery{
+
+}
+
+
+.st0{display:none;}
+.st1{fill:#B3E0FF;}
+.st2{fill:#D2E1F9;}
+.st3{fill:#E6F0FC;}
+.st4{fill:#EBF3FF;}
+.st5{fill:#BED3F4;}
+.st6{fill:#8DABD8;}
+.st7{fill:#6A6B6B;}
+.st8{fill:#353535;}
+.st9{fill:#80CC75;}
+.st10{fill:#64BA67;}
+.st11{fill:#FFFFFF;}
+.st12{fill:#E4ECF9;}
+.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#4C3C3C;}
+.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#909598;}
+.st15{fill-rule:evenodd;clip-rule:evenodd;fill:#696B6E;}
+.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+.st17{fill-rule:evenodd;clip-rule:evenodd;fill:#C1C2C5;}
+.st18{fill-rule:evenodd;clip-rule:evenodd;fill:#1ac7bd;}
+.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#B4432F;}
+.st20{fill-rule:evenodd;clip-rule:evenodd;fill:#1ac7bd;}
+.st21{fill-rule:evenodd;clip-rule:evenodd;fill:#1ac7bd;}
+.st22{fill-rule:evenodd;clip-rule:evenodd;fill:#000;}
+.st23{fill-rule:evenodd;clip-rule:evenodd;fill:#E61E26;}
+.st24{fill-rule:evenodd;clip-rule:evenodd;fill:#B1B1B5;}
+.st25{fill-rule:evenodd;clip-rule:evenodd;fill:#815937;}
+/* .st26{fill-rule:evenodd;clip-rule:evenodd;fill:#F16522;} */
+.st26{fill-rule:evenodd;clip-rule:evenodd;fill:#green;}
+.st27{fill-rule:evenodd;clip-rule:evenodd;fill:#C5C8C9;}
+.st28{fill-rule:evenodd;clip-rule:evenodd;fill:#F8B3A0;}
+.st29{fill-rule:evenodd;clip-rule:evenodd;fill:#EE3E33;}
+.st30{fill-rule:evenodd;clip-rule:evenodd;fill:#E2A28E;}
+.st31{fill-rule:evenodd;clip-rule:evenodd;fill:#235176;}
+.st32{fill-rule:evenodd;clip-rule:evenodd;fill:#241104;}
+.st33{fill-rule:evenodd;clip-rule:evenodd;fill:#4D2616;}
+.st34{fill-rule:evenodd;clip-rule:evenodd;fill:#1A1A1A;}
+.st35{fill:#FFCB58;}
+.st36{fill:#FFB958;}
+.st37{opacity:0.3;fill:#819399;}
+.st38{opacity:0.6;fill:#FFFFFF;}
+
+svg{
+    width: 100%;
+    height: 100vh;
+}
+/* wheels */
+#wheel1{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: wheelsSpin 3s linear  infinite;
+}
+#wheel2{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation: wheelsSpin 3s linear  infinite;
+}
+@keyframes wheelsSpin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* street and sidewalk */
+#street {
+
+    transform: translateX(110px);
+    animation: streetAndSidewalk 1s linear  infinite;
+  }
+
+
+  #Sidewalk{
+
+    animation: streetAndSidewalk 0.65s linear  infinite;
+}
+.copied-barrier1{
+transform: translateX(-600px);
+}
+.copied-barrier2{
+transform: translateX(600px);
+}
+.barrier{
+
+    transform: translateX(400px);
+    animation: streetAndSidewalk 3s linear  infinite;
+}
+@keyframes streetAndSidewalk{
+    from{
+        transform: translateX(110px);
+    }
+    to{
+        transform: translateX(-200px);
+    }
+}
+
+
+/* cloudes */
+#clouds{
+    animation: cloud 60s linear infinite;
+
+    transform: translateX(700px);
+}
+@keyframes cloud{
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(-2000px);
+    }
+}
+
+/* plant */
+.copied-plant1{
+    transform: translateX(-700px);
+}
+.copied-plant2{
+    transform: translateX(800px);
+}
+.copied-plant3{
+    transform: translateX(1500px);
+}
+
+
+/* plants and buildings */
+
+
+#plants{
+
+    transform: translateX(1000px);
+    animation: plantsAndBuildings 20s linear infinite;
+}
+#buildings{
+    transform: translateX(00px);
+    animation: plantsAndBuildings 50s linear infinite;
+}
+@keyframes plantsAndBuildings{
+    from{
+        transform: translateX(1000px);
+    }
+    to{
+        transform: translateX(-1800px);
+    }
+}
+.copied__big-bilding{
+    transform: translateX(1200px);
+}
+.cpoied__other-buildings{
+
+    transform: translateX(2000px);
+}
+.cpoied__small-buildings2{
+
+    transform: translateX(1050px);
+}
+#copied__buildings{
+    transform: translateX(1800px);
+}
+
+
+
+
+/* sun */
+#sun{
+    transform-origin: center;
+    transform-box: fill-box;
+    animation:wheelsSpin 20s linear  infinite ;
+}
+
+
+
+/*  motorbike somke */
+#motorbike-smoke{
+    opacity: 0;
+    transform-origin: right;
+    transform-box: fill-box;
+    animation:motorbikeSmoke 2s linear  infinite ;
+}
+
+@keyframes motorbikeSmoke{
+    from{
+        opacity: 0;
+        transform: translateX(20px);
+
+    }
+    50%{
+        opacity: 1;
+        transform: translateX(-20px);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+}
+
+
+/* motorbike  and Delivery man */
+
+#motorbike{
+
+    animation:motorbikeAndDelivery 0.5s linear alternate-reverse infinite ;
+}
+#delivery-man{
+
+    animation:motorbikeAndDelivery 0.5s linear alternate infinite ;
+}
+@keyframes motorbikeAndDelivery{
+    from{
+        transform: translateY(1px);
+    }
+    50%{
+        transform: translateY(-1px);
+    }
+    100%{
+        transform: translateY(1px);
+    }
+}

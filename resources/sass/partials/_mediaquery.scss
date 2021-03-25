@@ -1,0 +1,855 @@
+@media screen and (max-width: 1220px) {
+
+    .sidebar-nav.link a.nav-link {
+        font-size: 18px;
+    }
+
+    .div-search {
+        width: 98%;
+    }
+
+    .btn.show-btn-deliveroo, .btn.modify-btn-deliveroo, .btn.btn-danger.danger-deliveroo {
+        display: none;
+    }
+
+    .btn.show.show-btn-deliveroo, .btn.modify.modify-btn-deliveroo,  .btn.danger.danger-deliveroo{
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+
+    .div-search {
+        width: 97%;
+    }
+
+    a.card-link.restaurant-menu.secondary-btn-deliveroo {
+        display: none;
+    }
+
+    .card a.card-link.menu.secondary-btn-deliveroo {
+        display: block;
+        font-size: 14px;
+    }
+
+    .banner_verticale{
+        margin-right: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .div-search {
+        width: 96%;
+    }
+
+    .image-header {
+        width: 250px;
+        overflow: hidden;
+    }
+
+    .riquadro-blu-header-inside h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .cibi-preferiti {
+        padding-top:$spacingTopJumbo;
+        padding-bottom:$spacingBottomJumbo;
+        background-color: #ffeae4;
+
+        img{
+            width: 220px;
+            margin-right:5px;
+        }
+
+        h1{
+            font-weight: bold;
+            font-size: 40px;
+            padding-bottom: 10px;
+        }
+
+        h2{
+            font-size: 18px;
+            font-weight: bold;
+            padding-top:10px;
+        }
+
+        p{
+            font-size: 14px;
+            padding-bottom:20px;
+        }
+    }
+
+    .cerca-tipo{
+        span {
+            font-size: 28px;
+        }
+    }
+
+    .titleHeader h1 {
+        font-size: 35px;
+    }
+
+    .banner_verticale{
+        margin-right: 5px;
+        width: 300px;
+    }
+
+    .video-spot{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 1060px) {
+
+    .sidebar-nav.link a.nav-link {
+        font-size: 16px;
+    }
+
+    div.cart-button-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .div-search {
+        width: 95%;
+
+        .button {
+           width: 30%;
+           font-size: 10px;
+        }
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    .titleHeader h1 {
+        font-size: 30px;
+    }
+
+    .image-header {
+        width: 250px;
+    }
+    .cibi-preferiti {
+        img {
+            width: 200px;
+            margin-right:5px;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 38px;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-weight: bold;
+            padding-top:10px;
+
+        }
+
+        p {
+            font-size: 13px;
+            padding-bottom:20px;
+        }
+
+        .td-dish-9{
+            img{
+                height: 90% !important;
+
+               }
+        }
+    }
+
+    .btn-deliveroo {
+        font-size: 12px;
+        padding: 7px 5px;
+    }
+
+    .btn.show.show-btn-deliveroo, .btn.modify.modify-btn-deliveroo,  .btn.danger.danger-deliveroo {
+        padding: 5px;
+    }
+
+    .content-dropcart >  {
+        text-align: center;
+    }
+
+
+    .cerca-tipo {
+        span {
+            font-size: 26px;
+        }
+    }
+
+    .dropdown-menu.show {
+        padding:10px;
+        width: 250px !important;
+        left: -150px !important;
+        box-shadow:0px 5px 30px black;
+    }
+
+    .banner_verticale {
+        margin-right: 5px;
+        width: 250px;
+    }
+
+    .sidebar-nav.link a.nav-link {
+        font-size: 14px;
+    }
+    // carrello guest restaurants
+    .hidden-show-cart-restaurant {
+        display: inline-block!important;
+    }
+
+    .show-hidden-cart-restaurant {
+        display: none;
+    }
+
+    .logo-guest-restaurant {
+        display: flex;
+        align-items: center;
+        width: 245px!important;
+    }
+
+    .navbar-restaurants {
+        max-height: 200px!important;
+    }
+    .td-dish-9{
+        img{
+            height: 90% !important;
+
+           }
+    }
+}
+
+
+
+@media screen and (max-width: 920px) {
+
+    .sidebar-nav .link a.nav-link {
+        display: none;
+    }
+
+    li.only-icon {
+        display: block;
+    }
+
+    a.logout {
+        display: block;
+    }
+    // cart
+    div.cart-title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    // guest restaurants
+    div.select-under-600 {
+        display: block !important;
+    }
+
+    div.select-over-600 {
+        display: none;
+    }
+
+    div.main-container {
+        justify-content: center;
+    }
+
+    .restaurant-strip {
+        justify-content: center;
+    }
+
+    .offers-promo {
+        justify-content: center;
+
+    }
+    .offers-promo img {
+        width: 250px!important;
+        height: 145px!important;
+    }
+
+    .box-restaurant-container #all-restaurants .box-restaurant, .box-restaurant-container #all-restaurants .card-restaurant, .box-restaurant-container .all-category .box-restaurant, .box-restaurant-container .all-category .card-restaurant, .card-restaurant-container #all-restaurants .box-restaurant, .card-restaurant-container #all-restaurants .card-restaurant, .card-restaurant-container .all-category .box-restaurant, .card-restaurant-container .all-category .card-restaurant {
+        width: 255px!important;
+    }
+
+    // all restaurants guest
+    div#all-restaurants {
+        justify-content: center!important;
+    }
+
+    .card-restaurant{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cover-restaurant button{
+        display: none;
+    }
+
+    .td-dish-9{
+        img{
+            height: 90% !important;
+
+           }
+    }
+}
+
+@media screen and (max-width: 862px) {
+
+    .div-search {
+        width: 90%;
+
+        .button {
+            width: 25%;
+            font-size: 10px;
+        }
+
+        span{
+            font-size: 14px;
+        }
+    }
+
+    .image-header {
+        width: 250px;
+    }
+
+    .section-dropcart {
+        padding-top: 10px;
+    }
+
+    .titleHeader h1 {
+        font-size: 25px;
+    }
+
+    .dropdown-menu.show {
+        padding:10px;
+        width: 250px !important;
+        left: -180px !important;
+        box-shadow:0px 5px 30px black;
+    }
+
+    .cerca-tipo {
+        span {
+            font-size: 24px;
+        }
+    }
+
+    .banner_verticale {
+        margin-right: 5px;
+        width: 250px;
+    }
+
+    .video-spot {
+        display: none;
+    }
+
+    .add-dish,.header-card-restaurants{
+        .logo-admin-dish{
+            width: 300px !important;
+        }
+        h1{
+            font-size:30px;
+        }
+
+    }
+    .td-dish-9{
+        img{
+            height: 80% !important;
+
+           }
+    }
+}
+
+
+@media screen and (max-width: 772px) {
+    .div-search {
+        width: 85%;
+
+        .button {
+            width: 22%;
+            font-size: 10px;
+        }
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    .image-header {
+        width: 250px;
+    }
+
+
+    .cerca-tipo {
+        span {
+            font-size: 23px;
+        }
+    }
+
+    .banner_verticale {
+        margin-right: 5px;
+        width: 250px;
+    }
+
+    .add-dish,.header-card-restaurants{
+        .logo-admin-dish{
+        width: 280px !important;
+        }
+        h1{
+        font-size:25px;
+        }
+    }
+
+    .td-dish-9{
+        img{
+            height: 80%!important;
+
+           }
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .button-ham {
+        display: block;
+    }
+
+    .xIcon {
+      display: none;
+    }
+
+    .logo-guest-restaurant {
+        display: flex;
+        align-items: center;
+        width: 220px!important;
+    }
+
+    .add-dish,.header-card-restaurants{
+        .logo-admin-dish{
+            width: 250px !important;
+        }
+        h1{
+            font-size:22px;
+        }
+    }
+
+    .td-dish-9{
+        img{
+            height: 50%!important;
+
+           }
+    }
+
+    // checkout
+    .checkout .items-checkout {
+        padding: 16px!important;
+        width: 90%!important;
+        float: none!important;
+    }
+    .checkout .guest-data {
+        padding: 16px!important;
+        width: 90%!important;
+        float: none!important;
+    }
+    .img-fluid.checkout-fluid {
+        max-width: 90%;
+        min-width: 75px!important;
+    }
+
+    #marquee-cart{
+        font-size: 14px;
+        padding: 0;
+        width: 100%
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .titleHeader h1 {
+        font-size: 20px;
+    }
+
+    .riquadro-blu-header-inside h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .div-search {
+        width: 70%;
+
+        .button {
+            width: 20%;
+            font-size: 10px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .image-header {
+        width: 200px;
+        overflow: hidden;
+    }
+
+    .banner_verticale {
+        margin-right: 5px;
+        width: 250px;
+    }
+
+    // .btn-deliveroo{
+    //     display: block;
+    // }
+
+    .dropdown-menu.show {
+        padding:10px;
+        width: 250px !important;
+        // left: -90px !important;
+        box-shadow:0px 5px 30px black;
+
+        a.btn-deliveroo {
+            display:block;
+        }
+    }
+
+    .section-dropcart.dropdown-menu.btn-deliveroo {
+        display: block;
+    }
+
+    .header-card-restaurants h1, .add-dish h1, .card h1, h1.info-alert {
+        font-size: 30px;
+    }
+
+    table td {
+        font-size: 16px;
+    }
+
+    table th {
+        font-size: 18px;
+    }
+
+    h5.card-title.restaurant-info {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    li.list-group-item.restaurant-info {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn.all-dishes.btn-deliveroo {
+        display: inline-block;
+    }
+
+    .card p.dish-info {
+        font-size: 16px;
+    }
+
+    .cerca-tipo {
+        span {
+            font-size: 22px;
+        }
+    }
+
+    .item-container {
+        text-align: center;
+
+        #info-dish {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .all-dishes > .dish-card-details{
+        width: 400px;
+        height: 600px;
+    }
+
+    .add-dish,.header-card-restaurants{
+        .logo-admin-dish{
+            width: 230px !important;
+        }
+        h1{
+            font-size:20px;
+        }
+    }
+
+    .td-dish-9{
+        img{
+            height: 50%!important;
+
+           }
+    }
+
+    .business, .deliveroo_icon {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .titleHeader h1 {
+        font-size: 18px;
+    }
+
+    .div-search {
+        width: 70%;
+
+        .button {
+            width: 18%;
+            font-size: 10px;
+        }
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .card-show {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        // .card-body {
+        //     width: 100%;
+        // }
+    }
+
+    .cerca-tipo {
+        span {
+            font-size: 20px;
+        }
+    }
+
+    .image-header {
+        width: 200px;
+    }
+
+    .dropdown-menu.show {
+        padding:10px;
+        width: 250px !important;
+        left: -70px !important;
+        box-shadow:0px 5px 30px black;
+
+        a.btn-deliveroo {
+            display:block;
+        }
+    }
+
+    .banner_verticale {
+        margin-right: 5px;
+        width: 250px;
+    }
+
+    .card-restaurants {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    li.list-group-item.restaurant-info {
+        padding: 16px 0;
+    }
+
+    .card-link.menu.secondary-btn-deliveroo {
+        margin: 0;
+    }
+
+    .ham {
+        background-color: white;
+        border: none;
+
+        i {
+            color: $colorPrimary;
+            font-size: 16px;
+        }
+    }
+
+    .card-success-payment {
+        width: 300px;
+        height: 300px;
+        padding: 0;
+
+    }
+
+    .content-success-payment {
+        font-size: 16px;
+        padding: 0;
+
+        h1 {
+            display: none;
+        }
+    }
+
+    .all-dishes > .dish-card-details{
+        width: 300px;
+        height: 600px;
+    }
+    .add-dish,.header-card-restaurants{
+        .logo-admin-dish{
+            width: 200px !important;
+        }
+        h1{
+            font-size:20px;
+        }
+
+    }
+    button,.button9{
+        font-size: 14px;
+    }
+    .td-dish-9{
+        img{
+            height: 50%!important;
+
+           }
+    }
+
+    #marquee-cart{
+        font-size: 12px;
+        padding: 0;
+        width: 100%;
+        behavior: scroll;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .titleHeader h1 {
+        font-size: 15px;
+    }
+
+    .image-header {
+        width:200px;
+        overflow: hidden;
+    }
+
+    .div-search {
+        width: 70%;
+
+        .button {
+            width: 15%;
+            font-size: 8px;
+            padding: 7px;
+        }
+
+        span {
+            font-size: 10px;
+        }
+    }
+
+    .header-card-restaurants h1, .add-dish h1, .card h1, h1.info-alert {
+        font-size: 23px;
+    }
+
+    table td {
+        font-size: 14px;
+    }
+
+    table th {
+        font-size: 16px;
+    }
+
+    .cerca-tipo {
+        span {
+            font-size: 18px;
+        }
+    }
+
+    .dropdown-menu.show {
+        padding:10px;
+        width: 250px !important;
+        left: -90px !important;
+        box-shadow:0px 5px 30px black;
+
+        a.btn-deliveroo {
+            display:block;
+        }
+    }
+
+    .banner_verticale {
+        margin-right: 5px;
+        width: 200px;
+    }
+
+    .card-success-payment {
+        width: 300px;
+        height: 300px;
+        padding: 0;
+
+    }
+
+    .content-success-payment {
+        font-size: 16px;
+        padding: 0;
+
+        h1 {
+            display: none;
+        }
+
+    }
+
+    .all-dishes > .dish-card-details{
+        width: 280px;
+        height: 600px;
+    }
+
+    .all-dishes > .dish-card-link > #dish-card {
+        width: 250px;
+    }
+
+    .add-dish.header-card-restaurants{
+        .logo-admin-dish{
+            width: 180px !important;
+        }
+        h1{
+            font-size:18px;
+        }
+
+    }
+
+    .td-dish-9{
+        img{
+            height: 50%!important;
+
+           }
+    }
+
+    .table_price th{
+        font-size:10px !important;
+    }
+    .button9{
+            padding: 5px 29px;
+            font-size: 10px !important;
+    }
+
+    p.order-p {
+        font-size:12px!important;
+    }
+    p.d-inline{
+        font-size:12px!important;
+    }
+
+
+}

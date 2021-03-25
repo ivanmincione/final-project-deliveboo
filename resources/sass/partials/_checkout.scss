@@ -1,0 +1,125 @@
+.checkout::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.checkout {
+    width: 100%;
+
+    h1 {
+        font-size: 23px;
+        color: #2e3333;
+        font-weight: 700;
+    }
+
+    .card-checkout {
+        border: 2px solid $colorPrimary;
+        color: #2e3333;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .items-checkout {
+        padding: 16px;
+        width: 40%;
+        float: left;
+    }
+
+    .guest-data {
+        padding: 16px;
+        width: 60%;
+        float: left;
+
+        form {
+            border: 2px solid $colorPrimary;
+            padding: 10px;
+            border-radius: 3px;
+
+            label {
+                color: #2e3333;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+#info-dish::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#info-dish {
+    padding-top: 10px;
+}
+
+.item-container {
+    padding: 10px 10px 0 10px;
+    width: 100%;
+
+    span {
+        font-size: 16px;
+    }
+
+    .image-container {
+        float: left;
+        width: 20%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #price {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+        height: 80px;
+        width: 80%;
+
+        p.price {
+            margin: 0;
+        }
+    }
+
+}
+
+.checkout-card-total {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #e8ebeb;
+    border-radius: 3px;
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+label.checkout-mobile {
+    display: block;
+}
+
+span.checkout-mobile {
+    width: 20px;
+    border: 1px solid $colorPrimary;
+    padding: 8.5px 10px;
+    margin-right: -4px;
+}
+
+.form-control-deliveroo.checkout-mobile {
+    display: inline;
+    width: calc(100% - 47px);
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #00ccbc;
+}
+
+.img-fluid.checkout-fluid {
+    max-width: 90%;
+    min-width: 48px;
+}

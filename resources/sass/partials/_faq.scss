@@ -1,0 +1,77 @@
+main {
+    background-color: #fff;
+}
+
+.info-faq {
+    background-color: rgba(55,127,139,1);
+    padding: 20px;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 40px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+.info-faq-content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.info-faq-content {
+    .info-faq-content-left {
+        float: left;
+        background-color: #fff;
+        margin-right: 10px;
+        width: calc(35% - 10px);
+        border-radius: 3px;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                padding: 10px 0;
+                border-bottom: 1px solid #e8ebeb;
+
+                a {
+                    padding: 0 15px;
+                    color: $colorPrimary;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: $colorSecondary;
+                    }
+                }
+            }
+        }
+    }
+
+    .info-faq-content-right {
+        float: left;
+        background-color: #fff;
+        margin-left: 10px;
+        padding: 15px;
+        width: calc(65% - 10px);
+        border-radius: 3px;
+
+        h2 {
+            font-size: 28px;
+            color: #2e3333;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #2e3333;
+            font-weight: 700;
+        }
+        span {
+            font-size: 18px;
+            color: #2e3333;
+            font-weight: 700;
+        }
+    }
+}

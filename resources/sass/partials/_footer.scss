@@ -1,0 +1,123 @@
+footer{
+    background-color: $bg-footer-color;
+    margin-top: 20px;
+    padding: 20px 60px;
+
+    .box-container{
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .box-footer{
+            width: 250px;
+            height: auto;
+            background-color: $bg-box-footer-color;
+            padding: 20px;
+            margin: 10px;
+            color: #fff;
+            border-radius: 5px;
+
+            h5{
+                font-weight: bold;
+            }
+
+            ul{
+                list-style-type: none;
+                padding-left: 0;
+
+                li{
+
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+
+                        &:hover{
+                            color: #00a396;
+                        }
+                    }
+                }
+            }
+        }
+
+        .app-store, .google-store{
+            display: block;
+            background-color: black;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            margin: 10px;
+            text-align: center;
+
+            &:hover a{
+                color: #00a396;
+                cursor:pointer;
+            }
+
+            a{
+                color: #fff;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 10px;
+                display: block;
+
+                #icon-apple, #icon-google{
+                    font-size: 30px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .nav-icon{
+        margin-top: 20px;
+        // padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .box-icon{
+            span{
+                margin-right: 10px;
+
+                #icon-fb{
+                    font-size: 25px;
+                    color: #fff;
+
+                    &:hover{
+                        color: #3b5998;
+                        cursor: pointer;
+                    }
+                }
+
+                #icon-tw{
+                    font-size: 25px;
+                    color: #fff;
+
+                    &:hover{
+                        color: #199ec1;
+                        cursor: pointer;
+                    }
+                }
+
+                #icon-ig{
+                    font-size: 25px;
+                    color: #fff;
+
+                    &:hover{
+                        color: #de77c1;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .copyright{
+            span{
+                font-size: 16px;
+                color: #6C8585;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,65 @@
+.logo-admin-dish{
+    vertical-align: middle;
+    border-style: none;
+    width: 350px;
+    padding-bottom: 28px;
+}
+
+.title-order{
+    color: #440063;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.row-border-bottom {
+    border-bottom: 1px solid #00ccbc;
+    border-top: 1px solid #00ccbc;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.row-border-bottom:first-child {
+    border-top: none;
+
+}
+.color-p{
+    background-color:#0089ff36;
+}
+.color-blue{
+    background-color: blue;
+
+    &:hover{
+        color:#0089ff36!important;
+    }
+}
+
+p.order-p {
+    font-size: 20px;
+    color: $colorTitleHaeder;
+}
+
+p.p-order-row {
+    font-size: 18px;
+    color: $colorTitleHaeder;
+}
+
+.hide-order-div {
+    padding: 20px 0;
+    text-align: center;
+    border:1px solid #0089ff36;
+
+
+    p.hide-order-p {
+        font-size: 20px;
+        font-weight: bold;
+        color: $colorPrimary;
+
+        span.hide-order-span {
+            font-size: 20px;
+            font-weight: 100;
+            color: $colorTitleHaeder;
+        }
+    }
+}

@@ -1,0 +1,387 @@
+main {
+    background-color: #fff;
+}
+
+.header-single-rest::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header-single-rest {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    border-bottom: 3px solid #e8ebeb;
+
+    .single-restaurant-logo {
+        float: left;
+        width: 25%;
+
+        img {
+            width: 130px;
+            height: 35px;
+        }
+    }
+}
+
+.header-bar-menu {
+    text-align: right;
+    float: left;
+    width: 75%;
+
+    ul {
+        margin: 0;
+        padding-left: 0;
+
+        li {
+            display: inline-block;
+            text-align: center;
+
+            a {
+                width: 100px;
+                margin: 0;
+                color: #2e3333;
+                border: 1px solid #e8ebeb;
+                border-radius: 3px;
+
+                i {
+                    color: $colorPrimary;
+                }
+            }
+        }
+    }
+}
+
+#faq-drop-menu {
+    padding: 16px;
+    width: 350px;
+    height: 600px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border: 3px solid $colorPrimary;
+    border-radius: 3px;
+    color: #2e3333;
+    z-index: 101;
+
+    .faq-drop-close {
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid #e8ebeb;
+
+        img {
+            width: 130px;
+            height: 35px;
+        }
+    }
+
+    .nav-item > .nav-link{
+        text-decoration: none;
+        color: $colorPrimary;
+    }
+
+    i {
+        font-size: 20px;
+        cursor: pointer;
+        color: $colorPrimary;
+    }
+
+    .btn-deliveroo {
+        width: 100%;
+    }
+
+    .faq-info {
+        margin-top: 10px;
+
+        #faq {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #2e3333;
+
+            &:hover {
+                color: $colorPrimary;
+            }
+        }
+    }
+
+    select {
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #e8ebeb;
+        border-radius: 5px;
+        outline-color: $colorPrimary;
+    }
+}
+
+.flex-drop-faq {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-restaurant {
+    padding: 15px 0;
+}
+
+.cover-restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+
+    img {
+        width: 400px;
+        height: auto;
+    }
+}
+
+.img-rider {
+    width: 400px;
+}
+
+.img-rider p {
+    margin: 5px 0;
+}
+
+.title-restaurant {
+    color: $colorTitleHaeder;
+    margin-bottom: 40px;
+}
+
+.info-restaurant {
+
+    width: 60%;
+
+    h2, span {
+        color: #2e3333;
+        font-weight: 700;
+    }
+
+    .menu {
+        color: $colorPrimary;
+        transition: 0.5s;
+
+        &:hover {
+            color: $colorTitleHaeder;
+            text-decoration: none;
+        }
+    }
+
+    #news {
+        background-color: rgb(255, 246, 247);
+        color: red;
+        width: 60px;
+        padding: 3px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .info-details:after {
+        content: "";
+        display: table;
+        clear: both;
+        height: 30px;
+    }
+
+    .info-icon {
+        float:left;
+        width: 5%;
+        height: 100%;
+
+        i {
+            font-size: 20px;
+            color: grey;
+        }
+    }
+
+    .details {
+        float:left;
+        width: 50%;
+        height: 100%;
+        margin-left: 20px;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: $colorPrimary;
+            text-decoration: none;
+            transition: 0.5s;
+
+            &:hover {
+                color: $colorTitleHaeder;
+            }
+        }
+    }
+}
+
+.order {
+    margin-top: 10px;
+    padding: 7px 14px;
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+    color: $colorPrimary;
+    border: 1px solid $colorPrimary;
+    border-radius: 3px;
+    transition: 0.5s;
+
+    &:hover {
+        color: $colorTitleHaeder;
+        border: 1px solid $colorTitleHaeder;
+    }
+}
+
+.all-restaurant {
+    margin: 20px 20px !important;
+
+    .all-restaurant-btn {
+        margin: 0;
+    }
+
+}
+
+.components {
+    height: 50px;
+
+    ul {
+        margin-bottom: 0;
+        padding-left: 0;
+
+        li {
+            display: inline-block;
+            list-style-type: none;
+            padding-right: 30px;
+
+            a {
+                color: $colorPrimary;
+                text-decoration: none;
+                transition: 0.5s;
+
+                &:hover {
+                    color: $colorTitleHaeder;
+                }
+            }
+        }
+    }
+}
+
+.container-dishes {
+    width: 100%;
+    background-color: #f4f5f5;
+}
+
+#all-dishes-title {
+    padding: 30px 0;
+
+    h1 {
+        color: #2e3333;
+        font-weight: 700;
+        font-size: 28.8px;
+    }
+}
+
+.all-dishes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; position: relative;
+}
+
+.dish-card-link {
+    cursor: pointer;
+}
+
+#dish-card::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#dish-card {
+    width: 350px;
+    height: 140px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+
+    &:hover{
+        box-shadow:  5px  5px 10px #dedede,
+                -5px -5px 10px #dedede,
+                5px -5px 10px #dedede,
+                -5px  5px 10px #dedede;
+    }
+
+    .left-card {
+        float: left;
+        height: 100%;
+        width: 60%;
+
+        h4 {
+            color: #2e3333;
+            font-weight: 700;
+        }
+
+        p {
+            color: #000;
+        }
+
+        #description {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .right-card {
+        float: left;
+        height: 100%;
+        width: 40%;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+.dish-card-details {
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    padding: 16px;
+    height: 650px;
+    width: 450px;
+    background-color: #fff;
+    border: 3px solid $colorPrimary;
+    box-shadow:  5px  5px 10px $colorPrimary,
+                -5px -5px 10px $colorPrimary,
+                5px -5px 10px $colorPrimary,
+                -5px  5px 10px $colorPrimary;
+
+    i {
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    h4 {
+        color: #2e3333;
+        font-weight: 700;
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+        margin: 15px 0;
+    }
+}
